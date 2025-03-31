@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    <h1>Random Fact:</h1>
+    <h1>Random Facts</h1>
     <button @click="fetchData">Click Me!</button>
     <p v-if="fact">{{ fact }}</p>
   </div>
