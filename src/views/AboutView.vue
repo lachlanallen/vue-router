@@ -8,6 +8,6 @@
       There are several other pages in the navigation bar above, be sure to
       visit them as well!
     </p>
-    <router-link to="/">Go Back</router-link>
+    <router-link to="/" class="back-button">Back</router-link>
   </div>
 </template>

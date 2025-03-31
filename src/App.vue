@@ -31,4 +31,20 @@ nav a {
 nav a.router-link-exact-active {
   color: #42b983;
 }
+
+/*'Go Back' link styles */
+.back-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #42b983;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+  background-color: #369f6e;
+}
 </style>

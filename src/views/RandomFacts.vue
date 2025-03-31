@@ -2,7 +2,8 @@
   <div>
     <h1></h1>
     <HelloWorld />
-    <router-link to="/">Go Back</router-link>
+    <br />
+    <router-link to="/" class="back-button">Back</router-link>
   </div>
 </template>
 
