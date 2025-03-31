@@ -1,7 +1,7 @@
 <template>
   <div class="hello">
     <h1>Random Facts</h1>
-    <button @click="fetchData">Click Me!</button>
+    <button class="button" @click="fetchData">Generate</button>
     <p v-if="fact">{{ fact }}</p>
   </div>
 </template>
@@ -57,5 +57,22 @@ li {
 
 a {
   color: #42b983;
+}
+
+.button {
+  display: inline-block;
+  padding: 15px 20px;
+  background-color: #b98942;
+  color: white;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #9f6536;
 }
 </style>
